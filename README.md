@@ -37,7 +37,8 @@ Before you begin, ensure you have the following installed on your machine:
    npm install
    ```
 
-3. copy `env.local.example` and rename to `env.local`. Paste the `OPENAI_API_KEY` in the file.
+3. Copy `env.local.example` and rename to `env.local`. Paste the `OPENAI_API_KEY` in the file.
+4. Rename `app/api/result/result.json.example` to `app/api/result/result.json`.
 
 ## Running the Project
 
