@@ -15,7 +15,7 @@ const Home: React.FC<SurveyAttrs> = ({ title, description }) => {
       </h1>
       <p className="text-center text-sm text-gray-500">{description}</p>
       <button
-        className="w-32 flex justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        className="py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         onClick={handleButtonClick}
       >
         Start
